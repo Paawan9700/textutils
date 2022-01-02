@@ -71,7 +71,7 @@ export default function About() {
                 </div>
             </div>
 
-            <button type="button" class="btn btn-primary" onClick={changemode}>{btntext}</button>
+            <button type="button" className="btn btn-primary" onClick={changemode}>{btntext}</button>
         </div>
     )
 }
