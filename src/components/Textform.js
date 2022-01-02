@@ -6,11 +6,13 @@ export default function Textform(props) {
     const handleupchange = () => {
         const upperText = Text.toUpperCase();
         setText(upperText);
+        props.showAlert("Converted to upperCase!", "success");
     }
 
     const handlelochange = () => {
         const LowerText = Text.toLowerCase();
         setText(LowerText);
+        props.showAlert("Converted to lowerCase!", "success");
     }
 
     const handleclearchange = () => {
